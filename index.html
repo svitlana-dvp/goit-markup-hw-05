@@ -410,7 +410,29 @@
     </button>
      <p class="modal-paragraf">Leave your contacts and we will call you back</p>
     <form class="modal-form">
+      <div class="form-fild">
+        <label for="user-name" class="input-name">Name</label>
+          <div class="input-wrapper">
+            <input type="text" class="modal-input" name="user-name" id="user-name">
+             <svg class="modal-card" width="12" height="12">
+        <use href="./images/icons.svg#icon-person"></use>
+      </svg> 
+          </div>
+      </div>
 
+      <div class="form-fild">
+        <label for="user-tel" class="input-name">Phone</label>
+          <div class="input-wrapper">
+            <input type="tel" class="modal-input" name="user-tel" id="user-tel">
+              <svg class="modal-card" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+          </div>
+      </div>
+
+        <input type="email" class="modal-input" name="user-email" id="user-email">
+
+
+        <button type="submit" class="button-send">Send</button>
     </form>
   </div>
 </div>
