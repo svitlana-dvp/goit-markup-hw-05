@@ -552,6 +552,11 @@ address {
     fill: #2E2F42;
 }
 
+.modal-close:hover {
+    background-color: #404bbf;
+    fill: #fff;
+}
+
 .modal-paragraf {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -633,6 +638,51 @@ address {
     color: rgba(46, 47, 66, 0.4);
     }
 
+.check-field {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.modal-check-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: flex;
+    align-items: center;
+}
+
+.modal-check:checked + .modal-check-label span {
+    background-color: #404bbf;
+    fill: #f4f4fd;
+}
+
+.modal-check-label span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.policy-text {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+    margin-left: 4px;
+}
+
  .button-send {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -649,4 +699,13 @@ address {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #4d5ae5;
+    position: absolute;
+    bottom: 24px;
+    right: 120px;
  }
+
+ .button-send:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+ }
+
