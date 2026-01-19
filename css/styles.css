@@ -198,6 +198,8 @@ address {
     border-radius: 4px;
     display: block;
     margin: 0 auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -702,6 +704,7 @@ address {
     letter-spacing: 0.04em;
     padding: 8px 16px;
     resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text-area:focus {
